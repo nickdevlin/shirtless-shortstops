@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="http://d3js.org/d3.v3.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="chart-wrapper" id="chart-line1"></div>
+
+<script type="text/javascript">
+    d3.csv('shortstop_bwar.csv', function(error, data) {
+    data.forEach(function (d) {
+        d.season = +d.season;
+        d.gonzalez = +d.gonzalez;
+        d.jeter = +d.jeter;
+        d.ordóñez = +d.ordóñez;
+        d.rentería = +d.rentería;
+        d.rodriguez = +d.rodriguez;
+    });
+
+    var chart = makeLineChart(data, 'season', {
+        'Alex Gonzalez': {column: 'gonzalez'},
+        'Derek Jeter': {column: 'jeter'},
+        'Rey Ordóñez': {column: 'ordóñez'},
+        'Édgar Rentería': {column: 'rentería'},
+        'Alex Rodriguez': {column: 'rodriguez'},
+    }, {xAxis: 'Seasons', yAxis: 'Career Wins Above Replacement'});
+    chart.bind("#chart-line1");
+    chart.render();
+
+});
+</script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
