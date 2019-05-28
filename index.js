@@ -1,6 +1,8 @@
 function makeLineChart(dataset, xName, yObjs, axisLables) {
     var chartObj = {};
-    var color = d3.scale.category10();
+    var color = d3.scale.ordinal()
+        .domain(["gonzalez", "jeter", "ordóñez", "rentería", "rodriguez"])
+        .range(["#134A8E", "gray" , "#FF5910", "#C41E3A", "#009CA6"]);
     chartObj.xAxisLable = axisLables.xAxis;
     chartObj.yAxisLable = axisLables.yAxis;
     /*
