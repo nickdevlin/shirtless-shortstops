@@ -13,4 +13,4 @@ What's most fun to me about a photo like this is to imagine that these five shor
 
 Of course, with all five players now out of baseball, I was curious what their careers looked like stacked up side by side. To do this, I used their year-by-year Baseball Reference wins above replacement totals plotted on a D3.js responsive multiline chart. Here's what it looks line:
 
-
+![screenshot](graph.png)
