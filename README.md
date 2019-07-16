@@ -23,6 +23,6 @@ Gonzalez's career (11.2 WAR) was that of a journeyman, playing for six teams in 
 
 Finally, there's Ordóñez (1.2 WAR), who burst onto the scene with a series of spectacular defensive plays but spent much of his time clinging to an MLB roster due to his anemic bat.
 
-It should be pointed out that A-Rod's WAR is just a hair ahead of the other four shortstops combined, who come in at 117.1. Jeter checks in at 87th all-time, 45.4 WAR behind his former Yankee teammate. The gap between them is roughly equivalent to the career WARs of some very good players, including Lou Brock, Brad Radke, and Tony Fernandez.
+It should be pointed out that A-Rod's WAR is just a hair ahead of the other four shortstops combined, who come in at 117.1. Jeter checks in at 87th all-time, 45.4 WAR behind his former Yankee teammate. The gap between Rodriguez and Jeter is roughly equivalent to the career WARs of some very good players, including Lou Brock, Brad Radke, and Tony Fernandez.
 
 Head over to Baseball Reference to check out the [full MLB career WAR leaderboard](https://www.baseball-reference.com/leaders/WAR_career.shtml).
