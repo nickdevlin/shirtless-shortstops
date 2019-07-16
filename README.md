@@ -11,7 +11,7 @@ Unfortunately for Verducci, the words didn't themselves didn't leave as much of 
 
 It's fun now, with the benefit of hindsight, to remember that these five guys were once spoken of alongside one another. As Verducci says, we kind of knew Jeter and A-Rod had the inside track on immmortality, but there was a palpable feeling that a once-in-a-lifetime wave of talent was on its way at a position that had long been associated with glove-first slap hitters.
 
-Of course, with all five players now out of baseball, I was curious what their careers looked like stacked up side by side. To do this, I used their year-by-year Baseball Reference wins above replacement totals plotted on a D3.js responsive multiline chart. [Click here to see the full interactive version of the chart](http://shirtless-shortstops.herokuapp.com/) and drag your mouse over to watch the gaps between the players grow, or view the static version below:
+With all five players now out of baseball, I was curious what their careers looked like stacked up side by side. To do this, I used their year-by-year Baseball Reference wins above replacement totals plotted on a D3.js responsive multiline chart. [Click here to see the full interactive version of the chart](http://shirtless-shortstops.herokuapp.com/) and drag your mouse over to watch the gaps between the players grow, or view the static version below:
 
 ![screenshot](graph.png)
 
